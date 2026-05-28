@@ -14,6 +14,6 @@ jobs:
 
       - name: Afficher des infos sur le contexte
         run: |
-          echo: "Repository: \${{ github.repository }}"
-          echo: "Branche: \${{ github.ref_name }}"
-          echo: "Auteur du commit: \${{ github.actor }}"
+          echo "Repository: \${{ github.repository }}"
+          echo "Branche: \${{ github.ref_name }}"
+          echo "Auteur du commit: \${{ github.actor }}"
